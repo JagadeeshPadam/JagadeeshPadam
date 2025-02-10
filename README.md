@@ -5,7 +5,7 @@
 
 - 📫 How to reach me **jagadeeshpadam2003@gmail.com**
 
-- 📄 Know about my experiences [[https://drive.google.com/file/d/1Gm4U5Ehll2w4aeom8TmG2g91_APcXil4/view?usp=sharing](resume)]
+- 📄 Know about my experiences [[Resume](https://drive.google.com/file/d/1Gm4U5Ehll2w4aeom8TmG2g91_APcXil4/view?usp=sharing)]
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
