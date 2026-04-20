@@ -1,22 +1,173 @@
-<h1 align="center">Hello Mr.Strange, I'm Jagadeesh Padam</h1>
-<h3 align="center">Passionate developer with an eagerness to learn.</h3>
+<div align="center">
 
-- 👨‍💻 All of my projects are available at [https://jagadeeshpadam.github.io/Portfolio/](https://jagadeeshpadam.github.io/Portfolio/)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0e7490&height=200&section=header&text=Jagadeesh%20Padam&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20AI%20%26%20Backend%20Engineer%20%7C%20RAG%20%26%20LLM%20Specialist&descAlignY=58&descSize=16&descColor=a5f3fc" />
 
-- 📫 How to reach me **jagadeeshpadam2003@gmail.com**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0E7490&center=true&vCenter=true&width=600&lines=Building+AI-driven+backend+systems+%F0%9F%A4%96;RAG+Pipelines+%7C+LangChain+%7C+LangGraph;FastAPI+%7C+AWS+%7C+Vector+Databases;300%2B+LeetCode+Problems+Solved+%F0%9F%94%A5)](https://git.io/typing-svg)
 
-- 📄 Know about my experiences [[Resume](https://drive.google.com/file/d/1Gm4U5Ehll2w4aeom8TmG2g91_APcXil4/view?usp=sharing)]
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/jagadeeshpadam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jagadeeshpadam" height="30" width="40" /></a>
-<a href="https://instagram.com/jagguuuuuuuuuuuuuuuuu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jagguuuuuuuuuuuuuuuuu" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/bashman786" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="bashman786" height="30" width="40" /></a>
+<p>
+  <a href="https://linkedin.com/in/jagadeeshpadam"><img src="https://img.shields.io/badge/LinkedIn-jagadeeshpadam-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:jagadeeshpadam2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-jagadeeshpadam2003-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.leetcode.com/bashman786"><img src="https://img.shields.io/badge/LeetCode-bashman786-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
+  <a href="https://jagadeeshpadam.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit-0e7490?style=for-the-badge&logo=githubpages&logoColor=white"/></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+</div>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=jagadeeshpadam&show_icons=true&locale=en&layout=compact" alt="jagadeeshpadam" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jagadeeshpadam&show_icons=true&locale=en" alt="jagadeeshpadam" /></p>
+## 🧠 About Me
+
+```python
+class JagadeeshPadam:
+    def __init__(self):
+        self.role        = "Junior Software Engineer @ Selkea AI"
+        self.location    = "Bangalore, India 🇮🇳"
+        self.education   = "B.Tech CSE — SRKR Engineering College (CGPA: 9.31/10)"
+        self.focus       = ["RAG Pipelines", "LLM Integration", "Backend Systems", "Semantic Search"]
+        self.languages   = ["Python", "SQL"]
+        self.currently   = "Building production-grade AI systems for regulatory intelligence"
+        self.ask_me_about = ["FastAPI", "LangGraph", "Vector DBs", "AWS", "System Design"]
+
+    def __str__(self):
+        return "Passionate dev who ships things that actually work in production. 🚀"
+```
+
+---
+
+## ⚡ Tech Stack
+
+<div align="center">
+
+**Languages & Backend**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**AI / ML / Retrieval**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-0e7490?style=for-the-badge&logo=graphql&logoColor=white)
+![OpenAI](https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=databricks&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+**Databases & Infra**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+
+**Tools**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</div>
+
+---
+
+## 💼 Experience
+
+<table>
+  <tr>
+    <td><b>🏢 Company</b></td>
+    <td><b>💡 Role</b></td>
+    <td><b>📅 Duration</b></td>
+  </tr>
+  <tr>
+    <td><a href="#">Selkea AI</a></td>
+    <td>Junior Software Engineer <i>(Promoted from SDE Intern)</i></td>
+    <td>Dec 2024 – Present</td>
+  </tr>
+</table>
+
+> 🔹 Built a production RAG pipeline over **10,000+ regulatory documents** (RBI, SEBI, NPCI, IRDAI)  
+> 🔹 Designed multi-stage retrieval with **LangGraph**, multi-query expansion & contextual filtering  
+> 🔹 Engineered real-time scrapers for regulatory monitoring & compliance alerting  
+> 🔹 Built ingestion pipelines with **Azure Document Intelligence** → Qdrant + Elasticsearch  
+> 🔹 Shipped scalable backend services using **FastAPI, MongoDB, AWS S3, EC2, DocumentDB**
+
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/jagadeeshpadam">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jagadeeshpadam&repo=financial-news-intelligence&theme=react&border_color=0e7490&title_color=0e7490" />
+</a>
+<a href="https://github.com/jagadeeshpadam">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jagadeeshpadam&repo=knowledge-graph-system&theme=react&border_color=0e7490&title_color=0e7490" />
+</a>
+
+</div>
+
+### 🤖 AI-Powered Financial News Intelligence System
+> `Python` `FastAPI` `LangGraph` `LLMs` `ChromaDB` `Embeddings`
+
+- Multi-agent platform for real-time financial news ingestion, deduplication & analysis
+- **95%+ semantic deduplication accuracy** using embeddings + GPT-based entity extraction
+- Sub-**2 second** contextual query responses via RAG-style retrieval over ChromaDB
+
+---
+
+### 🕸️ Document Knowledge Graph & Semantic Exploration System
+> `Python` `Neo4j` `NLP` `FastAPI`
+
+- Domain-agnostic knowledge graph built from unstructured documents via NLP pipelines
+- Entity & relationship extraction stored in **Neo4j** for relationship-aware semantic search
+- Context-aware discovery of entities and documents far beyond keyword/vector search
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=jagadeeshpadam&show_icons=true&theme=react&border_color=0e7490&title_color=0e7490&icon_color=0e7490&hide_border=false&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jagadeeshpadam&layout=compact&theme=react&border_color=0e7490&title_color=0e7490&hide_border=false"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=jagadeeshpadam&theme=react&border=0e7490&ring=0e7490&fire=f97316&currStreakLabel=0e7490)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🏆 Achievements
+
+| 🥇 | Achievement |
+|----|-------------|
+| 🧩 | **300+ problems** solved on LeetCode & HackerRank |
+| 🥈 | **Silver Medal** (2nd Rank) — 1st Year Academics, CGPA 9.69/10 |
+| 🇮🇳 | **National Finalist** — Smart India Hackathon 2024 (Telemedicine Kiosk) |
+| 🎯 | **1st Place** — SRKR Code-Knight Competitive Programming Contest |
+| 🏅 | **3rd Place** — VIT-B Code-Chaser Programming Contest |
+| 👨‍🏫 | **Competitive Coding Lead** — SRKR Coding Club, mentored 50+ students |
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+[![Jagadeesh's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=jagadeeshpadam&theme=react-dark&color=0e7490&line=0e7490&point=f97316&area=true&hide_border=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0e7490&height=120&section=footer&text=Let's+Build+Something+Great&fontSize=24&fontColor=ffffff&fontAlignY=65"/>
+
+</div>
