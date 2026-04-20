@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0e7490&height=200&section=header&text=Jagadeesh%20Padam&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20AI%20%26%20Backend%20Engineer%20%7C%20RAG%20%26%20LLM%20Specialist&descAlignY=58&descSize=16&descColor=a5f3fc" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0e7490&amp;height=200&amp;section=header&amp;text=Jagadeesh%20Padam&amp;fontSize=60&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Software%20Developer%20%7C%20AI%20%26%20Backend%20Engineer%20%7C%20RAG%20%26%20LLM%20Specialist&amp;descAlignY=58&amp;descSize=16&amp;descColor=a5f3fc" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0E7490&center=true&vCenter=true&width=600&lines=Building+AI-driven+backend+systems+%F0%9F%A4%96;RAG+Pipelines+%7C+LangChain+%7C+LangGraph;FastAPI+%7C+AWS+%7C+Vector+Databases;300%2B+LeetCode+Problems+Solved+%F0%9F%94%A5)](https://git.io/typing-svg)
 
 <p>
-  <a href="https://linkedin.com/in/jagadeeshpadam"><img src="https://img.shields.io/badge/LinkedIn-jagadeeshpadam-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:jagadeeshpadam2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-jagadeeshpadam2003-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.leetcode.com/bashman786"><img src="https://img.shields.io/badge/LeetCode-bashman786-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
-  <a href="https://jagadeeshpadam.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit-0e7490?style=for-the-badge&logo=githubpages&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/jagadeeshpadam"><img src="https://img.shields.io/badge/LinkedIn-jagadeeshpadam-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"/></a>
+  <a href="mailto:jagadeeshpadam2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-jagadeeshpadam2003-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white"/></a>
+  <a href="https://www.leetcode.com/bashman786"><img src="https://img.shields.io/badge/LeetCode-bashman786-FFA116?style=for-the-badge&amp;logo=leetcode&amp;logoColor=white"/></a>
+  <a href="https://jagadeeshpadam.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit-0e7490?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white"/></a>
 </p>
 
 </div>
@@ -99,9 +99,9 @@ class JagadeeshPadam:
 
 <div align="center">
 
-[![Financial News Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&repo=Financial-News-Intelligence-System&theme=react&border_color=0e7490&title_color=0e7490)](https://github.com/JagadeeshPadam/Financial-News-Intelligence-System)
+[![Financial News Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&amp;repo=Financial-News-Intelligence-System&amp;theme=react&amp;border_color=0e7490&amp;title_color=0e7490)](https://github.com/JagadeeshPadam/Financial-News-Intelligence-System)
 &nbsp;&nbsp;
-[![Graph RAG](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&repo=Graph-RAG&theme=react&border_color=0e7490&title_color=0e7490)](https://github.com/JagadeeshPadam/Graph-RAG)
+[![Graph RAG](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&amp;repo=Graph-RAG&amp;theme=react&amp;border_color=0e7490&amp;title_color=0e7490)](https://github.com/JagadeeshPadam/Graph-RAG)
 
 </div>
 
@@ -127,8 +127,8 @@ class JagadeeshPadam:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=JagadeeshPadam&show_icons=true&theme=react&border_color=0e7490&title_color=0e7490&icon_color=0e7490&hide_border=false&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JagadeeshPadam&layout=compact&theme=react&border_color=0e7490&title_color=0e7490&hide_border=false"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=JagadeeshPadam&amp;show_icons=true&amp;theme=react&amp;border_color=0e7490&amp;title_color=0e7490&amp;icon_color=0e7490&amp;hide_border=false&amp;include_all_commits=true&amp;count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JagadeeshPadam&amp;layout=compact&amp;theme=react&amp;border_color=0e7490&amp;title_color=0e7490&amp;hide_border=false"/>
 
 </div>
 
@@ -165,6 +165,6 @@ class JagadeeshPadam:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0e7490&height=120&section=footer&text=Let%27s%20Build%20Something%20Great&fontSize=24&fontColor=ffffff&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0e7490&amp;height=120&amp;section=footer&amp;text=Let%27s%20Build%20Something%20Great&amp;fontSize=24&amp;fontColor=ffffff&amp;fontAlignY=65" width="100%"/>
 
 </div>
