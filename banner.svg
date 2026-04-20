@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D2B45;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0e4a6e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0e7490;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#0e7490;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)" />
+
+  <!-- Wave shapes -->
+  <path d="M0,140 C150,100 300,160 450,130 C600,100 750,150 900,120 L900,200 L0,200 Z" fill="url(#wave1)" />
+  <path d="M0,160 C200,130 400,175 600,150 C750,130 850,165 900,155 L900,200 L0,200 Z" fill="url(#wave2)" />
+
+  <!-- Name -->
+  <text x="450" y="90" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700"
+        fill="#ffffff" text-anchor="middle" letter-spacing="3">Jagadeesh Padam</text>
+
+  <!-- Divider line -->
+  <line x1="200" y1="105" x2="700" y2="105" stroke="#06B6D4" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Subtitle -->
+  <text x="450" y="135" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400"
+        fill="#a5f3fc" text-anchor="middle" letter-spacing="1" font-style="italic">
+    Software Developer · AI &amp; Backend Engineer · RAG &amp; LLM Specialist
+  </text>
+</svg>

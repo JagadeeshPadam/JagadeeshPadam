@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0e7490&amp;height=200&amp;section=header&amp;text=Jagadeesh%20Padam&amp;fontSize=60&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Software%20Developer%20%7C%20AI%20%26%20Backend%20Engineer%20%7C%20RAG%20%26%20LLM%20Specialist&amp;descAlignY=58&amp;descSize=16&amp;descColor=a5f3fc" width="100%"/>
+![banner](banner.svg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0E7490&center=true&vCenter=true&width=600&lines=Building+AI-driven+backend+systems+%F0%9F%A4%96;RAG+Pipelines+%7C+LangChain+%7C+LangGraph;FastAPI+%7C+AWS+%7C+Vector+Databases;300%2B+LeetCode+Problems+Solved+%F0%9F%94%A5)](https://git.io/typing-svg)
 
@@ -164,7 +164,5 @@ class JagadeeshPadam:
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0e7490&amp;height=120&amp;section=footer&amp;text=Let%27s%20Build%20Something%20Great&amp;fontSize=24&amp;fontColor=ffffff&amp;fontAlignY=65" width="100%"/>
-
+<i>Let's build something great together 🚀</i>
 </div>
