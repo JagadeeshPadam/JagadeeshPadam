@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0e7490&height=200&section=header&text=Jagadeesh%20Padam&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20AI%20%26%20Backend%20Engineer%20%7C%20RAG%20%26%20LLM%20Specialist&descAlignY=58&descSize=16&descColor=a5f3fc" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0e7490&height=200&section=header&text=Jagadeesh%20Padam&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20AI%20%26%20Backend%20Engineer%20%7C%20RAG%20%26%20LLM%20Specialist&descAlignY=58&descSize=16&descColor=a5f3fc" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0E7490&center=true&vCenter=true&width=600&lines=Building+AI-driven+backend+systems+%F0%9F%A4%96;RAG+Pipelines+%7C+LangChain+%7C+LangGraph;FastAPI+%7C+AWS+%7C+Vector+Databases;300%2B+LeetCode+Problems+Solved+%F0%9F%94%A5)](https://git.io/typing-svg)
 
@@ -81,16 +81,16 @@ class JagadeeshPadam:
     <td><b>📅 Duration</b></td>
   </tr>
   <tr>
-    <td><a href="#">Selkea AI</a></td>
+    <td><b>Selkea AI</b></td>
     <td>Junior Software Engineer <i>(Promoted from SDE Intern)</i></td>
     <td>Dec 2024 – Present</td>
   </tr>
 </table>
 
-> 🔹 Built a production RAG pipeline over **10,000+ regulatory documents** (RBI, SEBI, NPCI, IRDAI)  
-> 🔹 Designed multi-stage retrieval with **LangGraph**, multi-query expansion & contextual filtering  
-> 🔹 Engineered real-time scrapers for regulatory monitoring & compliance alerting  
-> 🔹 Built ingestion pipelines with **Azure Document Intelligence** → Qdrant + Elasticsearch  
+> 🔹 Built a production RAG pipeline over **10,000+ regulatory documents** (RBI, SEBI, NPCI, IRDAI)
+> 🔹 Designed multi-stage retrieval with **LangGraph**, multi-query expansion & contextual filtering
+> 🔹 Engineered real-time scrapers for regulatory monitoring & compliance alerting
+> 🔹 Built ingestion pipelines with **Azure Document Intelligence** → Qdrant + Elasticsearch
 > 🔹 Shipped scalable backend services using **FastAPI, MongoDB, AWS S3, EC2, DocumentDB**
 
 ---
@@ -99,16 +99,13 @@ class JagadeeshPadam:
 
 <div align="center">
 
-<a href="https://github.com/jagadeeshpadam">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jagadeeshpadam&repo=financial-news-intelligence&theme=react&border_color=0e7490&title_color=0e7490" />
-</a>
-<a href="https://github.com/jagadeeshpadam">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jagadeeshpadam&repo=knowledge-graph-system&theme=react&border_color=0e7490&title_color=0e7490" />
-</a>
+[![Financial News Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&repo=Financial-News-Intelligence-System&theme=react&border_color=0e7490&title_color=0e7490)](https://github.com/JagadeeshPadam/Financial-News-Intelligence-System)
+&nbsp;&nbsp;
+[![Graph RAG](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&repo=Graph-RAG&theme=react&border_color=0e7490&title_color=0e7490)](https://github.com/JagadeeshPadam/Graph-RAG)
 
 </div>
 
-### 🤖 AI-Powered Financial News Intelligence System
+### 🤖 [AI-Powered Financial News Intelligence System](https://github.com/JagadeeshPadam/Financial-News-Intelligence-System)
 > `Python` `FastAPI` `LangGraph` `LLMs` `ChromaDB` `Embeddings`
 
 - Multi-agent platform for real-time financial news ingestion, deduplication & analysis
@@ -117,7 +114,7 @@ class JagadeeshPadam:
 
 ---
 
-### 🕸️ Document Knowledge Graph & Semantic Exploration System
+### 🕸️ [Document Knowledge Graph & Semantic Exploration System](https://github.com/JagadeeshPadam/Graph-RAG)
 > `Python` `Neo4j` `NLP` `FastAPI`
 
 - Domain-agnostic knowledge graph built from unstructured documents via NLP pipelines
@@ -130,14 +127,14 @@ class JagadeeshPadam:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=jagadeeshpadam&show_icons=true&theme=react&border_color=0e7490&title_color=0e7490&icon_color=0e7490&hide_border=false&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jagadeeshpadam&layout=compact&theme=react&border_color=0e7490&title_color=0e7490&hide_border=false"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=JagadeeshPadam&show_icons=true&theme=react&border_color=0e7490&title_color=0e7490&icon_color=0e7490&hide_border=false&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JagadeeshPadam&layout=compact&theme=react&border_color=0e7490&title_color=0e7490&hide_border=false"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=jagadeeshpadam&theme=react&border=0e7490&ring=0e7490&fire=f97316&currStreakLabel=0e7490)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=JagadeeshPadam&theme=react&border=0e7490&ring=0e7490&fire=f97316&currStreakLabel=0e7490)](https://git.io/streak-stats)
 
 </div>
 
@@ -160,7 +157,7 @@ class JagadeeshPadam:
 
 <div align="center">
 
-[![Jagadeesh's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=jagadeeshpadam&theme=react-dark&color=0e7490&line=0e7490&point=f97316&area=true&hide_border=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Jagadeesh's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JagadeeshPadam&theme=react-dark&color=0e7490&line=0e7490&point=f97316&area=true&hide_border=false)](https://github.com/JagadeeshPadam)
 
 </div>
 
@@ -168,6 +165,6 @@ class JagadeeshPadam:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0e7490&height=120&section=footer&text=Let's+Build+Something+Great&fontSize=24&fontColor=ffffff&fontAlignY=65"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0e7490&height=120&section=footer&text=Let%27s%20Build%20Something%20Great&fontSize=24&fontColor=ffffff&fontAlignY=65" width="100%"/>
 
 </div>
