@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🦇 Batman LinkedIn — Jagadeesh Padam</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&family=Cinzel:wght@700;900&display=swap');
+
+    :root {
+      --bat-black:   #0a0a0a;
+      --bat-dark:    #111111;
+      --bat-card:    #161616;
+      --bat-panel:   #1c1c1c;
+      --bat-border:  #2a2a2a;
+      --bat-yellow:  #f5c518;
+      --bat-gold:    #d4a017;
+      --bat-dim:     #8a8a8a;
+      --bat-white:   #e8e8e8;
+      --bat-blue:    #1a3a5c;
+      --bat-red:     #8b0000;
+      --glow:        0 0 12px rgba(245,197,24,0.4);
+      --glow-sm:     0 0 6px  rgba(245,197,24,0.25);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bat-black);
+      color: var(--bat-white);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 15px;
+      line-height: 1.65;
+    }
+
+    /* ─── HERO BANNER ─────────────────────────────────── */
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 320px;
+      background:
+        radial-gradient(ellipse 60% 80% at 50% 10%, rgba(245,197,24,0.18) 0%, transparent 70%),
+        repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(245,197,24,0.04) 40px),
+        repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(245,197,24,0.04) 40px),
+        linear-gradient(180deg, #0d0d0d 0%, #050505 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-bottom: 2px solid var(--bat-yellow);
+    }
+
+    .bat-signal {
+      position: absolute;
+      top: -60px; left: 50%; transform: translateX(-50%);
+      width: 500px; height: 500px;
+      background: conic-gradient(
+        from 155deg at 50% 50%,
+        rgba(245,197,24,0.0) 0deg,
+        rgba(245,197,24,0.25) 12deg,
+        rgba(245,197,24,0.0) 24deg
+      );
+      border-radius: 50%;
+      animation: signal-rotate 8s linear infinite;
+    }
+    @keyframes signal-rotate { to { transform: translateX(-50%) rotate(360deg); } }
+
+    .bat-logo-hero {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+    }
+
+    .bat-logo-hero svg {
+      width: 130px;
+      filter: drop-shadow(0 0 20px rgba(245,197,24,0.7)) drop-shadow(0 0 40px rgba(245,197,24,0.3));
+      animation: pulse 3s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%,100% { filter: drop-shadow(0 0 20px rgba(245,197,24,0.7)) drop-shadow(0 0 40px rgba(245,197,24,0.3)); }
+      50%      { filter: drop-shadow(0 0 30px rgba(245,197,24,1.0)) drop-shadow(0 0 60px rgba(245,197,24,0.6)); }
+    }
+
+    .hero-title {
+      font-family: 'Cinzel', serif;
+      font-size: 2.6rem;
+      font-weight: 900;
+      letter-spacing: 0.15em;
+      color: var(--bat-yellow);
+      text-shadow: var(--glow);
+      margin-top: 14px;
+    }
+    .hero-sub {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--bat-dim);
+      letter-spacing: 0.25em;
+      margin-top: 6px;
+    }
+
+    /* ─── LAYOUT ──────────────────────────────────────── */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    /* ─── PROFILE STRIP ───────────────────────────────── */
+    .profile-strip {
+      display: flex;
+      align-items: flex-end;
+      gap: 24px;
+      margin-top: -55px;
+      padding: 0 0 28px;
+      border-bottom: 1px solid var(--bat-border);
+    }
+
+    .avatar {
+      width: 110px; height: 110px;
+      border-radius: 50%;
+      border: 3px solid var(--bat-yellow);
+      background: var(--bat-card);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      box-shadow: var(--glow);
+      font-size: 3rem;
+    }
+
+    .profile-info { flex: 1; padding-bottom: 4px; }
+    .profile-name {
+      font-family: 'Cinzel', serif;
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: var(--bat-yellow);
+      letter-spacing: 0.06em;
+    }
+    .profile-headline {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--bat-white);
+      margin-top: 4px;
+      line-height: 1.4;
+    }
+    .profile-meta {
+      font-size: 0.8rem;
+      color: var(--bat-dim);
+      margin-top: 6px;
+      font-family: 'Share Tech Mono', monospace;
+      letter-spacing: 0.05em;
+    }
+    .profile-meta span { margin-right: 14px; }
+
+    .open-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--bat-yellow), var(--bat-gold));
+      color: #000;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 700;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-top: 8px;
+      text-transform: uppercase;
+    }
+
+    /* ─── CARDS ───────────────────────────────────────── */
+    .section {
+      margin-top: 32px;
+    }
+
+    .section-title {
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.3em;
+      color: var(--bat-yellow);
+      text-transform: uppercase;
+      border-left: 3px solid var(--bat-yellow);
+      padding-left: 12px;
+      margin-bottom: 16px;
+    }
+
+    .card {
+      background: var(--bat-card);
+      border: 1px solid var(--bat-border);
+      border-radius: 8px;
+      padding: 22px 26px;
+      margin-bottom: 16px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px; height: 100%;
+      background: linear-gradient(180deg, var(--bat-yellow), transparent);
+    }
+    .card:hover { border-color: rgba(245,197,24,0.4); }
+
+    /* ─── COPY BOX ────────────────────────────────────── */
+    .copy-box {
+      background: var(--bat-panel);
+      border: 1px solid var(--bat-border);
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin-top: 14px;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.9rem;
+      color: #ccc;
+      white-space: pre-wrap;
+      line-height: 1.7;
+    }
+    .copy-label {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      color: var(--bat-yellow);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .copy-label::after {
+      content: ''; flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, var(--bat-border), transparent);
+    }
+
+    .copy-btn {
+      display: inline-block;
+      background: transparent;
+      border: 1px solid var(--bat-yellow);
+      color: var(--bat-yellow);
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      padding: 5px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      text-transform: uppercase;
+      margin-top: 10px;
+      transition: all 0.15s;
+    }
+    .copy-btn:hover {
+      background: var(--bat-yellow);
+      color: #000;
+    }
+
+    /* ─── HEADLINE CARD ───────────────────────────────── */
+    .headline-big {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.2rem;
+      color: var(--bat-yellow);
+      font-weight: 600;
+      line-height: 1.5;
+    }
+
+    /* ─── SKILL PILLS ─────────────────────────────────── */
+    .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    .pill {
+      background: rgba(245,197,24,0.08);
+      border: 1px solid rgba(245,197,24,0.3);
+      color: var(--bat-yellow);
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+    .pill-dim {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--bat-border);
+      color: var(--bat-dim);
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.72rem;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+
+    /* ─── EXPERIENCE ROW ──────────────────────────────── */
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 6px;
+    }
+    .exp-company {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--bat-yellow);
+    }
+    .exp-date {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--bat-dim);
+      text-align: right;
+    }
+    .exp-role {
+      font-size: 0.85rem;
+      color: var(--bat-dim);
+      margin-bottom: 12px;
+      font-style: italic;
+    }
+    .exp-quote {
+      font-family: 'Cinzel', serif;
+      font-size: 0.82rem;
+      color: rgba(245,197,24,0.6);
+      font-style: italic;
+      margin-bottom: 14px;
+      border-left: 2px solid rgba(245,197,24,0.25);
+      padding-left: 12px;
+    }
+
+    .bullet { margin-bottom: 8px; padding-left: 0; }
+    .bullet-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 9px;
+      align-items: flex-start;
+    }
+    .bullet-icon { flex-shrink: 0; font-size: 1rem; margin-top: 1px; }
+    .bullet-title {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
+      color: var(--bat-yellow);
+    }
+    .bullet-text { color: #bbb; font-size: 0.88rem; }
+
+    /* ─── PROJECT CARD ────────────────────────────────── */
+    .proj-name {
+      font-family: 'Cinzel', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--bat-yellow);
+    }
+    .proj-quote {
+      font-size: 0.82rem;
+      color: rgba(245,197,24,0.55);
+      font-style: italic;
+      margin: 6px 0 12px;
+      border-left: 2px solid rgba(245,197,24,0.2);
+      padding-left: 12px;
+    }
+
+    /* ─── STAT ROW ────────────────────────────────────── */
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .stat-box {
+      background: var(--bat-panel);
+      border: 1px solid var(--bat-border);
+      border-radius: 6px;
+      padding: 14px;
+      text-align: center;
+    }
+    .stat-num {
+      font-family: 'Cinzel', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--bat-yellow);
+      text-shadow: var(--glow-sm);
+    }
+    .stat-label {
+      font-size: 0.7rem;
+      color: var(--bat-dim);
+      font-family: 'Share Tech Mono', monospace;
+      letter-spacing: 0.08em;
+      margin-top: 4px;
+    }
+
+    /* ─── ACHIEVEMENT ─────────────────────────────────── */
+    .ach-row {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--bat-border);
+    }
+    .ach-row:last-child { border-bottom: none; }
+    .ach-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 1px; }
+    .ach-title {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 700;
+      color: var(--bat-yellow);
+      font-size: 0.95rem;
+    }
+    .ach-desc { color: #999; font-size: 0.82rem; margin-top: 2px; }
+
+    /* ─── FEATURED POSTS ──────────────────────────────── */
+    .post-card {
+      background: var(--bat-card);
+      border: 1px solid var(--bat-border);
+      border-radius: 8px;
+      padding: 18px 22px;
+      margin-bottom: 12px;
+    }
+    .post-tag {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      color: var(--bat-dim);
+      margin-bottom: 6px;
+    }
+    .post-title {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--bat-yellow);
+      line-height: 1.4;
+    }
+    .post-body { font-size: 0.82rem; color: #aaa; margin-top: 8px; line-height: 1.6; }
+
+    /* ─── DIVIDER ─────────────────────────────────────── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--bat-yellow), transparent);
+      margin: 40px 0;
+      opacity: 0.3;
+    }
+
+    /* ─── FOOTER ──────────────────────────────────────── */
+    .footer {
+      text-align: center;
+      padding: 40px 0;
+      border-top: 1px solid var(--bat-border);
+    }
+    .footer-bat { font-size: 2rem; margin-bottom: 8px; }
+    .footer-text {
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.25em;
+      color: var(--bat-dim);
+    }
+
+    /* ─── INSTRUCTION BLOCK ───────────────────────────── */
+    .instruction {
+      background: rgba(245,197,24,0.05);
+      border: 1px dashed rgba(245,197,24,0.3);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 28px;
+    }
+    .instruction-title {
+      font-family: 'Oswald', sans-serif;
+      color: var(--bat-yellow);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      margin-bottom: 8px;
+    }
+    .instruction ul { padding-left: 18px; }
+    .instruction li { color: #999; font-size: 0.82rem; margin-bottom: 4px; }
+    .instruction li strong { color: var(--bat-white); }
+
+    .highlight { color: var(--bat-yellow); font-weight: 700; }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════ HERO ═══════════════════════ -->
+<div class="hero">
+  <div class="bat-signal"></div>
+  <div class="bat-logo-hero">
+    <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M100 20 C80 20, 60 40, 40 35 C20 30, 10 50, 20 60 C10 55, 0 65, 15 75
+               C25 80, 45 70, 55 75 C65 80, 75 90, 100 90
+               C125 90, 135 80, 145 75 C155 70, 175 80, 185 75
+               C200 65, 190 55, 180 60 C190 50, 180 30, 160 35
+               C140 40, 120 20, 100 20Z"
+            fill="#f5c518"/>
+    </svg>
+    <div class="hero-title">JAGADEESH PADAM</div>
+    <div class="hero-sub">▸ DARK KNIGHT OF CODE ▸ GUARDIAN OF GOTHAM'S DATA ▸</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════ CONTAINER ═══════════════════════ -->
+<div class="container">
+
+  <!-- PROFILE STRIP -->
+  <div class="profile-strip">
+    <div class="avatar">🦇</div>
+    <div class="profile-info">
+      <div class="profile-name">Jagadeesh Padam</div>
+      <div class="profile-headline">
+        🦇 Dark Knight of Code &nbsp;|&nbsp; RAG · LangGraph · FastAPI · AWS<br/>
+        Protecting the Digital Gotham from Data Chaos &nbsp;|&nbsp; Jr. SWE @ Selkea AI
+      </div>
+      <div class="profile-meta">
+        <span>📍 Bangalore, India</span>
+        <span>🎓 SRKR Eng. College · CGPA 9.31</span>
+        <span>⚔️ 300+ LeetCode problems solved</span>
+      </div>
+      <div class="open-badge">🦇 &nbsp; Open to Mission Opportunities</div>
+    </div>
+  </div>
+
+  <!-- HOW TO USE -->
+  <div class="section">
+    <div class="instruction">
+      <div class="instruction-title">🦇 FIELD MANUAL — HOW TO DEPLOY THIS PROFILE</div>
+      <ul>
+        <li><strong>Profile Photo:</strong> Use a dramatic dark photo — low light, strong contrast, or silhouette style.</li>
+        <li><strong>Banner:</strong> Upload a dark Gotham skyline with Bat-Signal. Prompt for AI image: <em>"Gotham City skyline at night, Bat-Signal in stormy sky, raining, dark cinematic, yellow and black color palette, 1584x396px"</em></li>
+        <li><strong>Headline:</strong> Copy the headline from the HEADLINE section below (220 char limit on LinkedIn).</li>
+        <li><strong>About:</strong> Copy exactly from the ABOUT section — paste into LinkedIn's About box.</li>
+        <li><strong>Experience, Projects, Education:</strong> Each section has a copy-ready text block.</li>
+        <li><strong>Featured Section:</strong> Write and post the 3 LinkedIn post templates below, then pin them to Featured.</li>
+        <li><strong>Skills:</strong> Add all skills from the SKILLS section in order listed.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ─── HEADLINE ─── -->
+  <div class="section">
+    <div class="section-title">01 · Profile Headline</div>
+    <div class="card">
+      <div class="headline-big">
+        🦇 Dark Knight of Code &nbsp;|&nbsp; Building AI Systems That Never Sleep &nbsp;|&nbsp; RAG · LangGraph · FastAPI · AWS &nbsp;|&nbsp; Jr. SWE @ Selkea AI &nbsp;|&nbsp; Protecting Gotham's Data, One Pipeline at a Time
+      </div>
+      <div class="copy-label">copy & paste into linkedin headline</div>
+      <div class="copy-box" id="copy-headline">🦇 Dark Knight of Code | Building AI Systems That Never Sleep | RAG · LangGraph · FastAPI · AWS | Jr. SWE @ Selkea AI | Protecting Gotham's Data, One Pipeline at a Time</div>
+      <button class="copy-btn" onclick="copyText('copy-headline', this)">⚡ Copy Headline</button>
+    </div>
+  </div>
+
+  <!-- ─── ABOUT ─── -->
+  <div class="section">
+    <div class="section-title">02 · About / Summary</div>
+    <div class="card">
+      <div class="exp-quote">"It's not who I am underneath — but what I build that defines me."</div>
+      <div class="copy-label">copy & paste into linkedin about section</div>
+      <div class="copy-box" id="copy-about">"It's not who I am underneath — but what I build that defines me."
+
+Gotham doesn't need a hero. It needs a Dark Knight — one who operates in the shadows of production servers, battles the villains of unstructured data, and strikes at the heart of compliance chaos before dawn.
+
+I am Jagadeesh Padam. By day: Junior Software Engineer at Selkea AI. By night: the architect of systems that never sleep.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🦇 THE MISSION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Like Batman protecting Gotham from its darkest threats, I protect enterprise systems from unstructured regulatory data, privacy breaches, and brittle architectures. My weapons? RAG pipelines. LangGraph. FastAPI. AWS. And an obsessive commitment to clean, SOLID code.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚡ THE ARSENAL — WHAT I'VE BUILT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ A production RAG pipeline processing 10,000+ regulatory documents — because even Batman needs intelligence before he strikes.
+
+→ An automated surveillance network (web scrapers) tracking RBI & SEBI regulatory updates in real time — the Bat-Signal for compliance teams everywhere.
+
+→ SecureLLM: A privacy-first AI proxy that intercepts and neutralizes 18+ PII entity types (98%+ accuracy) before they ever reach an LLM — Batman's grappling hook against data exposure.
+
+→ PGFusion: A unified data fortress in PostgreSQL that eliminated MongoDB, Redis, AND a dedicated Vector DB simultaneously — because a true knight doesn't need three Batcaves.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🕵️ THE CODE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"A detective's greatest weapon is not the gadgets — it's the pattern."
+
+300+ algorithmic problems conquered on LeetCode. National Finalist at Smart India Hackathon 2024. Organized HackOverflow — a national-level hackathon. Mentored 50+ students in competitive programming. Silver Medal in Year 1 academics (CGPA: 9.69/10).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌃 THE CITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Based in Bangalore. Protecting the digital realm. Open to missions that challenge the impossible.
+
+"I wear the cowl not because I want to. Because I have to."</div>
+      <button class="copy-btn" onclick="copyText('copy-about', this)">⚡ Copy About Section</button>
+    </div>
+  </div>
+
+  <!-- ─── EXPERIENCE ─── -->
+  <div class="section">
+    <div class="section-title">03 · Experience — Selkea AI</div>
+    <div class="card">
+      <div class="exp-header">
+        <div>
+          <div class="exp-company">🦇 Selkea AI — Gotham's Regulatory Intelligence Division</div>
+          <div class="exp-role">Junior Software Engineer &nbsp;·&nbsp; Promoted from SDE Intern, Apr 2025 &nbsp;·&nbsp; Bangalore, India</div>
+        </div>
+        <div class="exp-date">Dec 2024 – Present<br/>Full-time</div>
+      </div>
+      <div class="exp-quote">"In a city drowning in regulatory chaos, someone had to build the systems to bring order."</div>
+
+      <div class="bullet-row">
+        <span class="bullet-icon">🦇</span>
+        <div>
+          <div class="bullet-title">The Bat-Intelligence Network (RAG Pipeline)</div>
+          <div class="bullet-text">Engineered a production-grade RAG pipeline enabling semantic search and grounded answer generation across 10,000+ regulatory documents from RBI, SEBI, NPCI, IRDAI — because a detective never misses a clue.</div>
+        </div>
+      </div>
+      <div class="bullet-row">
+        <span class="bullet-icon">🕷️</span>
+        <div>
+          <div class="bullet-title">The Bat-Computer Orchestration (LangGraph)</div>
+          <div class="bullet-text">Designed a multi-stage retrieval architecture using LangGraph — orchestrating intelligent agents like Batman coordinates the Justice League: precise, purposeful, always mission-ready. Multi-query expansion and contextual filtering included.</div>
+        </div>
+      </div>
+      <div class="bullet-row">
+        <span class="bullet-icon">📡</span>
+        <div>
+          <div class="bullet-title">The Bat-Signal Surveillance System (Web Scrapers)</div>
+          <div class="bullet-text">Engineered automated web scrapers for RBI and SEBI, tracking regulatory updates in real time. The moment Gotham's regulators move — the system knows. Proactive compliance monitoring: the Dark Knight doesn't react, he anticipates.</div>
+        </div>
+      </div>
+      <div class="bullet-row">
+        <span class="bullet-icon">🗄️</span>
+        <div>
+          <div class="bullet-title">The Batcave Document Vault (Azure + Qdrant + Elasticsearch)</div>
+          <div class="bullet-text">Developed a unified document ingestion and indexing pipeline using Azure Document Intelligence, generating structured embeddings indexed into Qdrant and Elasticsearch. Every document indexed. Every query answered. Zero escape.</div>
+        </div>
+      </div>
+      <div class="bullet-row">
+        <span class="bullet-icon">☁️</span>
+        <div>
+          <div class="bullet-title">Bat-Cave Cloud Infrastructure (AWS)</div>
+          <div class="bullet-text">Deployed and maintained AWS infrastructure (EC2, DocumentDB, S3) with high availability and scalability — because Gotham's systems cannot go dark. Ever.</div>
+        </div>
+      </div>
+      <div class="bullet-row">
+        <span class="bullet-icon">👁️</span>
+        <div>
+          <div class="bullet-title">Bat-Surveillance & Monitoring (Sentry)</div>
+          <div class="bullet-text">Implemented Sentry-based observability for real-time error tracking and performance insights — Batman's eyes on every corner of the production environment, 24/7.</div>
+        </div>
+      </div>
+
+      <div class="pills" style="margin-top:16px;">
+        <div class="pill">Python</div><div class="pill">FastAPI</div>
+        <div class="pill">LangGraph</div><div class="pill">LangChain</div>
+        <div class="pill">RAG Pipelines</div><div class="pill">Qdrant</div>
+        <div class="pill">Elasticsearch</div><div class="pill">MongoDB</div>
+        <div class="pill">AWS EC2/S3</div><div class="pill">Azure Doc Intelligence</div>
+        <div class="pill">Docker</div><div class="pill">Sentry</div>
+      </div>
+
+      <div class="copy-label" style="margin-top:20px;">copy & paste into linkedin experience description</div>
+      <div class="copy-box" id="copy-exp">"In a city drowning in regulatory chaos, someone had to build the systems to bring order."
+
+🦇 The Bat-Intelligence Network (RAG Pipeline)
+Engineered a production-grade RAG pipeline enabling semantic search and grounded answer generation across 10,000+ regulatory documents from RBI, SEBI, NPCI, IRDAI — because a detective never misses a clue.
+
+🕷️ The Bat-Computer Orchestration (LangGraph)
+Designed a multi-stage retrieval architecture using LangGraph — orchestrating intelligent agents like Batman coordinates the Justice League: precise, purposeful, always mission-ready. Multi-query expansion and contextual filtering included.
+
+📡 The Bat-Signal Surveillance System (Web Scrapers)
+Engineered automated web scrapers tracking RBI and SEBI regulatory updates in real time. The moment Gotham's regulators move — the system knows. Proactive compliance monitoring: the Dark Knight doesn't react, he anticipates.
+
+🗄️ The Batcave Document Vault (Azure + Qdrant + Elasticsearch)
+Developed a unified document ingestion and indexing pipeline using Azure Document Intelligence, generating structured embeddings indexed into Qdrant and Elasticsearch. Every document indexed. Every query answered.
+
+☁️ Bat-Cave Cloud Infrastructure (AWS)
+Deployed and maintained AWS infrastructure (EC2, DocumentDB, S3) ensuring high availability and scalability — because Gotham's systems cannot go dark.
+
+👁️ Bat-Surveillance & Monitoring (Sentry)
+Implemented Sentry-based observability for real-time error tracking and production performance insights — Batman's eyes on every corner of the system, 24/7.
+
+Stack: Python · FastAPI · LangGraph · LangChain · Qdrant · Elasticsearch · MongoDB · AWS (EC2, S3, DocumentDB) · Azure Document Intelligence · Docker · Sentry</div>
+      <button class="copy-btn" onclick="copyText('copy-exp', this)">⚡ Copy Experience</button>
+    </div>
+  </div>
+
+  <!-- ─── PROJECTS ─── -->
+  <div class="section">
+    <div class="section-title">04 · Projects</div>
+
+    <!-- SecureLLM -->
+    <div class="card">
+      <div class="proj-name">🦇 SecureLLM (RedacGPT) — The Privacy Cowl</div>
+      <div class="proj-quote">"The enemy isn't out there. Sometimes it's in the data you send."</div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <div class="stat-num">18+</div>
+          <div class="stat-label">PII Types Neutralized</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">98%+</div>
+          <div class="stat-label">Detection Accuracy</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">&lt;1ms</div>
+          <div class="stat-label">Context Assembly</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">2-Tier</div>
+          <div class="stat-label">Encrypted Vaults</div>
+        </div>
+      </div>
+
+      <div style="margin-top:16px;">
+        <div class="bullet-row">
+          <span class="bullet-icon">🛡️</span>
+          <div class="bullet-text">Privacy-first AI chat proxy intercepting 18+ PII entity types using Presidio before they ever reach an LLM — 98%+ detection accuracy, enterprise-grade compliance.</div>
+        </div>
+        <div class="bullet-row">
+          <span class="bullet-icon">🔐</span>
+          <div class="bullet-text">Dual-tier memory vault: Redis (hot, sub-ms) + PostgreSQL (cold, AES-128-CBC Fernet encrypted) — the Batcave has two vaults, both impenetrable.</div>
+        </div>
+        <div class="bullet-row">
+          <span class="bullet-icon">⚡</span>
+          <div class="bullet-text">SSE streaming with Google Gemini for real-time token delivery while maintaining semantic integrity via numbered entity placeholders across multi-turn sessions.</div>
+        </div>
+        <div class="bullet-row">
+          <span class="bullet-icon">🔧</span>
+          <div class="bullet-text">SOLID principles + Dependency Injection enabling seamless LLM provider swaps (Gemini/OpenAI/Ollama) — modular as a Bat-suit upgrade. Zero architectural regression.</div>
+        </div>
+      </div>
+      <div class="pills" style="margin-top:12px;">
+        <div class="pill">Python</div><div class="pill">FastAPI</div>
+        <div class="pill">Next.js 14</div><div class="pill">Redis</div>
+        <div class="pill">PostgreSQL</div><div class="pill">Presidio</div>
+        <div class="pill">Google Gemini</div><div class="pill">SSE Streaming</div>
+      </div>
+
+      <div class="copy-label" style="margin-top:20px;">copy & paste into linkedin project description</div>
+      <div class="copy-box" id="copy-proj1">🦇 SecureLLM (RedacGPT) — The Privacy Cowl
+
+"The enemy isn't out there. Sometimes it's in the data you send."
+
+Batman doesn't let sensitive intelligence fall into the wrong hands. Neither does SecureLLM.
+
+🛡️ 18+ PII entity types intercepted and anonymized at 98%+ accuracy using Presidio — faster than a Batarang — before any data touches an LLM.
+
+🔐 Dual-tier memory vault: Redis (hot cache, sub-millisecond) + PostgreSQL (cold storage, AES-128-CBC Fernet encrypted). The Batcave has two vaults, both impenetrable. Complete audit trail for break-glass access.
+
+⚡ SSE streaming with Google Gemini for real-time token delivery while maintaining semantic integrity via numbered entity placeholders across multi-turn sessions — live intelligence, zero data leaks.
+
+🔧 SOLID principles + Dependency Injection for seamless LLM provider swaps (Gemini/OpenAI/Ollama) — modular as a Bat-suit upgrade. Zero architectural regression.
+
+Stack: Python · FastAPI · Next.js 14 · Redis · PostgreSQL · Presidio · Google Gemini · SSE</div>
+      <button class="copy-btn" onclick="copyText('copy-proj1', this)">⚡ Copy SecureLLM</button>
+    </div>
+
+    <!-- PGFusion -->
+    <div class="card">
+      <div class="proj-name">🏰 PGFusion — The Unified Batcave Data Fortress</div>
+      <div class="proj-quote">"Why maintain three Batcaves when one fortress can rule them all?"</div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <div class="stat-num">60%</div>
+          <div class="stat-label">Infra Complexity Cut</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">&lt;100ms</div>
+          <div class="stat-label">Vector Retrieval</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">3-in-1</div>
+          <div class="stat-label">DBs Replaced</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">ACID</div>
+          <div class="stat-label">Compliance Intact</div>
+        </div>
+      </div>
+
+      <div style="margin-top:16px;">
+        <div class="bullet-row">
+          <span class="bullet-icon">🏰</span>
+          <div class="bullet-text">Designed a unified multi-model data layer in PostgreSQL — replacing MongoDB, Redis, AND dedicated Vector DBs (Pinecone/Milvus) simultaneously. 60% infrastructure complexity reduction.</div>
+        </div>
+        <div class="bullet-row">
+          <span class="bullet-icon">⚡</span>
+          <div class="bullet-text">Vector Search engine using pgvector + IVFFlat indexing — sub-100ms similarity retrieval across high-dimensional embeddings. The Bat-Computer answers before you finish asking.</div>
+        </div>
+        <div class="bullet-row">
+          <span class="bullet-icon">📂</span>
+          <div class="bullet-text">JSONB + GIN indexing for schemaless CRUD with ACID compliance — the best of document stores, the integrity of relational. No compromises, no surrender.</div>
+        </div>
+        <div class="bullet-row">
+          <span class="bullet-icon">🌙</span>
+          <div class="bullet-text">Asynchronous TTL-based caching with asyncpg — background cleanup runs silently, like Batman in the shadows. High-concurrency key-value lookups at maximum throughput.</div>
+        </div>
+      </div>
+      <div class="pills" style="margin-top:12px;">
+        <div class="pill">PostgreSQL</div><div class="pill">pgvector</div>
+        <div class="pill">Python</div><div class="pill">FastAPI</div>
+        <div class="pill">Asyncio</div><div class="pill">asyncpg</div>
+        <div class="pill">IVFFlat Indexing</div><div class="pill">JSONB</div>
+      </div>
+
+      <div class="copy-label" style="margin-top:20px;">copy & paste into linkedin project description</div>
+      <div class="copy-box" id="copy-proj2">🏰 PGFusion — The Unified Batcave Data Fortress
+
+"Why maintain three Batcaves when one fortress can rule them all?"
+
+🏰 Designed a unified multi-model data layer in PostgreSQL — replacing MongoDB, Redis, AND dedicated Vector DBs (Pinecone/Milvus) simultaneously. Result: 60% reduction in infrastructure complexity and network hops. Fewer moving parts. Fewer attack surfaces.
+
+⚡ Vector Search engine using pgvector + IVFFlat indexing — sub-100ms similarity retrieval across high-dimensional embeddings via optimized cosine distance queries. The Bat-Computer answers before you finish asking.
+
+📂 JSONB + GIN indexing for schemaless CRUD with full ACID compliance — the best of document stores combined with the integrity of relational databases. No compromises.
+
+🌙 Asynchronous TTL-based caching using relational tables + B-Tree indexes via asyncpg — background cleanup runs silently, like Batman in the shadows. Maximum throughput, zero noise.
+
+Stack: Python · PostgreSQL · pgvector · FastAPI · Asyncio · asyncpg</div>
+      <button class="copy-btn" onclick="copyText('copy-proj2', this)">⚡ Copy PGFusion</button>
+    </div>
+  </div>
+
+  <!-- ─── SKILLS ─── -->
+  <div class="section">
+    <div class="section-title">05 · Skills</div>
+    <div class="card">
+      <div style="margin-bottom:12px;">
+        <div class="bullet-title" style="margin-bottom:8px;">🦇 Detective Arsenal — Languages</div>
+        <div class="pills"><div class="pill">Python</div><div class="pill">SQL</div></div>
+      </div>
+      <div style="margin-bottom:12px;">
+        <div class="bullet-title" style="margin-bottom:8px;">⚙️ Utility Belt — Backend & APIs</div>
+        <div class="pills">
+          <div class="pill">FastAPI</div><div class="pill">RESTful APIs</div>
+          <div class="pill">Microservices Architecture</div>
+        </div>
+      </div>
+      <div style="margin-bottom:12px;">
+        <div class="bullet-title" style="margin-bottom:8px;">🤖 Bat-Computer AI — ML & Retrieval</div>
+        <div class="pills">
+          <div class="pill">RAG Pipelines</div><div class="pill">LangChain</div>
+          <div class="pill">LangGraph</div><div class="pill">Semantic Search</div>
+          <div class="pill">Qdrant (Vector DB)</div><div class="pill">LLM Integration</div>
+        </div>
+      </div>
+      <div style="margin-bottom:12px;">
+        <div class="bullet-title" style="margin-bottom:8px;">🗄️ Gotham's Data Vaults — Data & Search</div>
+        <div class="pills">
+          <div class="pill">Elasticsearch</div><div class="pill">MongoDB</div>
+          <div class="pill">PostgreSQL</div><div class="pill">Redis</div>
+          <div class="pill">MySQL</div>
+        </div>
+      </div>
+      <div style="margin-bottom:12px;">
+        <div class="bullet-title" style="margin-bottom:8px;">☁️ Bat-Cave Infrastructure — Cloud & DevOps</div>
+        <div class="pills">
+          <div class="pill">AWS EC2</div><div class="pill">AWS S3</div>
+          <div class="pill">AWS DocumentDB</div><div class="pill">Docker</div>
+          <div class="pill">Apache Airflow</div>
+        </div>
+      </div>
+      <div>
+        <div class="bullet-title" style="margin-bottom:8px;">🏆 Code of the Knight — Engineering</div>
+        <div class="pills">
+          <div class="pill">Data Structures & Algorithms</div>
+          <div class="pill">Object-Oriented Programming</div>
+          <div class="pill">SOLID Principles</div>
+          <div class="pill">Git & GitHub</div>
+          <div class="pill">Postman</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── EDUCATION ─── -->
+  <div class="section">
+    <div class="section-title">06 · Education</div>
+    <div class="card">
+      <div class="exp-header">
+        <div>
+          <div class="exp-company">🎓 SRKR Engineering College, Bhimavaram</div>
+          <div class="exp-role">B.Tech in Computer Science & Engineering &nbsp;·&nbsp; CGPA: 9.31 / 10</div>
+        </div>
+        <div class="exp-date">Sep 2021 – May 2025<br/>Bhimavaram, India</div>
+      </div>
+      <div class="exp-quote">"Even Bruce Wayne had to study. The difference is what you do with the knowledge."</div>
+      <div class="bullet-row">
+        <span class="bullet-icon">🥈</span>
+        <div class="bullet-text"><strong class="highlight">Silver Medal — 2nd Rank</strong> in first-year academics. CGPA 9.69/10. The Dark Knight doesn't settle for anything less than excellence.</div>
+      </div>
+      <div class="bullet-row">
+        <span class="bullet-icon">🦇</span>
+        <div class="bullet-text"><strong class="highlight">Competitive Coding Lead</strong> — SRKR Coding Club. Organized <em>HackOverflow</em>, a national-level hackathon. Mentored 50+ students in the art of algorithmic combat.</div>
+      </div>
+      <div class="bullet-row">
+        <span class="bullet-icon">🏆</span>
+        <div class="bullet-text"><strong class="highlight">National Finalist — Smart India Hackathon 2024</strong>. Developed a Telemedicine Kiosk solution addressing real-world healthcare accessibility — Batman solves real problems.</div>
+      </div>
+
+      <div class="copy-label" style="margin-top:20px;">copy & paste into linkedin education description</div>
+      <div class="copy-box" id="copy-edu">"Even Bruce Wayne had to study. The difference is what you do with the knowledge."
+
+🥈 Silver Medal (2nd Rank) — Year 1 CGPA: 9.69/10. The Dark Knight doesn't settle for anything less than excellence.
+
+🦇 Competitive Coding Lead — SRKR Coding Club. Organized HackOverflow, a national-level hackathon. Mentored 50+ students in the art of algorithmic combat.
+
+🏆 National Finalist — Smart India Hackathon 2024. Developed a Telemedicine Kiosk for healthcare accessibility. Batman solves real-world problems.
+
+⚔️ 1st Place, SRKR Code-Knight · 3rd Place, VIT-B Code-Chaser. The knight competes. The knight wins.</div>
+      <button class="copy-btn" onclick="copyText('copy-edu', this)">⚡ Copy Education</button>
+    </div>
+  </div>
+
+  <!-- ─── ACHIEVEMENTS ─── -->
+  <div class="section">
+    <div class="section-title">07 · Achievements & Honors</div>
+    <div class="card">
+      <div class="ach-row">
+        <div class="ach-icon">⚔️</div>
+        <div>
+          <div class="ach-title">300+ Algorithmic Problems Conquered</div>
+          <div class="ach-desc">LeetCode & HackerRank. The Bat-Computer runs every night. So do I.</div>
+        </div>
+      </div>
+      <div class="ach-row">
+        <div class="ach-icon">🥈</div>
+        <div>
+          <div class="ach-title">Silver Medal — 2nd Rank, SRKR Engineering College</div>
+          <div class="ach-desc">First-year CGPA: 9.69/10. Even Bruce Wayne had to top his class.</div>
+        </div>
+      </div>
+      <div class="ach-row">
+        <div class="ach-icon">🏆</div>
+        <div>
+          <div class="ach-title">National Finalist — Smart India Hackathon 2024</div>
+          <div class="ach-desc">Telemedicine Kiosk solution. Real problems. Real solutions. Gotham's finest.</div>
+        </div>
+      </div>
+      <div class="ach-row">
+        <div class="ach-icon">🦇</div>
+        <div>
+          <div class="ach-title">Competitive Coding Lead — SRKR Coding Club</div>
+          <div class="ach-desc">Organized HackOverflow (national-level). Mentored 50+ future knights in competitive programming.</div>
+        </div>
+      </div>
+      <div class="ach-row">
+        <div class="ach-icon">🥇</div>
+        <div>
+          <div class="ach-title">1st Place — SRKR Code-Knight &nbsp;·&nbsp; 3rd Place — VIT-B Code-Chaser</div>
+          <div class="ach-desc">Competitive programming contests. The Dark Knight competes. The Dark Knight wins.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── FEATURED POSTS ─── -->
+  <div class="section">
+    <div class="section-title">08 · Featured Post Templates — Write & Pin These</div>
+
+    <div class="post-card">
+      <div class="post-tag">LINKEDIN POST 1 — COPY, POST, THEN PIN TO FEATURED</div>
+      <div class="post-title">🦇 I built Gotham's regulatory intelligence network. Here's how LangGraph orchestrates it like Batman directing the Justice League.</div>
+      <div class="copy-label" style="margin-top:12px;">full post text</div>
+      <div class="copy-box" id="copy-post1">🦇 I built Gotham's regulatory intelligence network. Here's how LangGraph orchestrates it like Batman directing the Justice League.
+
+When I joined Selkea AI, the challenge was clear: 10,000+ regulatory documents from RBI, SEBI, NPCI, IRDAI — and compliance teams drowning in them.
+
+Batman doesn't drown. He builds systems.
+
+Here's what I architected:
+
+1/ The Bat-Intelligence Network
+A production-grade RAG pipeline that understands what you're asking — not just what words you used. Multi-query expansion + contextual filtering = answers that hit the target, every time.
+
+2/ LangGraph Orchestration
+Think of LangGraph as Batman's comms system with the Justice League. Each "agent" has a role. LangGraph makes sure they work in sequence, share context, and stay on mission. No chaos. Only precision.
+
+3/ The Bat-Signal Scrapers
+Automated web scrapers watch RBI and SEBI in real time. The second regulators publish updates — the system knows. Proactive intelligence, not reactive panic.
+
+4/ The Document Vault
+Azure Document Intelligence + Qdrant + Elasticsearch. Everything ingested, structured, embedded, and indexed. No document escapes.
+
+The result? Compliance teams that respond in minutes, not days.
+
+"It's not who I am underneath — but what I build that defines me."
+
+#RAG #LangGraph #AI #Python #Backend #Compliance #MachineLearning #SoftwareEngineering 🦇</div>
+      <button class="copy-btn" onclick="copyText('copy-post1', this)">⚡ Copy Post 1</button>
+    </div>
+
+    <div class="post-card">
+      <div class="post-tag">LINKEDIN POST 2 — COPY, POST, THEN PIN TO FEATURED</div>
+      <div class="post-title">🔐 18 types of PII. 98%+ accuracy. Zero data leaked to the LLM. I built the Batman suit for AI privacy.</div>
+      <div class="copy-label" style="margin-top:12px;">full post text</div>
+      <div class="copy-box" id="copy-post2">🔐 18 types of PII. 98%+ accuracy. Zero data leaked to the LLM. I built the Batman suit for AI privacy.
+
+When companies use LLMs, they unknowingly send sensitive user data to external APIs.
+
+Names. Emails. Phone numbers. Financial data. Medical records.
+
+The Joker would love that. Batman doesn't allow it.
+
+So I built SecureLLM — a privacy-first AI chat proxy that acts as the Dark Knight between your users and any LLM.
+
+Here's how it works:
+
+🦇 Intercept
+Every message passes through Presidio-powered PII detection. 18+ entity types. 98%+ accuracy. The system catches what humans miss.
+
+🔐 Anonymize
+PII is replaced with numbered placeholders [PERSON_1], [EMAIL_2]. The LLM sees structure, not secrets. Batman's cowl stays on.
+
+⚡ Stream
+Google Gemini responds in real time via SSE. Sub-millisecond token delivery. The response is de-anonymized before it reaches the user. Magic — or engineering. Hard to tell.
+
+🏛️ Store securely
+Dual-tier vault: Redis (hot, sub-ms) + PostgreSQL (cold, AES-128-CBC Fernet encrypted). Immutable audit trail. Break-glass access for admins only.
+
+🔧 Swap LLMs freely
+SOLID principles + Dependency Injection mean you can switch Gemini → OpenAI → Ollama with zero architectural regression. Modular as a Bat-suit upgrade.
+
+Privacy is not a feature. It's the foundation.
+
+"I wear the cowl not because I want to. Because I have to."
+
+#AI #Privacy #LLM #Security #FastAPI #Python #SoftwareEngineering #DataPrivacy 🦇</div>
+      <button class="copy-btn" onclick="copyText('copy-post2', this)">⚡ Copy Post 2</button>
+    </div>
+
+    <div class="post-card">
+      <div class="post-tag">LINKEDIN POST 3 — COPY, POST, THEN PIN TO FEATURED</div>
+      <div class="post-title">🏰 I replaced MongoDB + Redis + Pinecone with a single PostgreSQL instance. Here's why Postgres is the real Dark Knight of databases.</div>
+      <div class="copy-label" style="margin-top:12px;">full post text</div>
+      <div class="copy-box" id="copy-post3">🏰 I replaced MongoDB + Redis + Pinecone with a single PostgreSQL instance. Here's why Postgres is the real Dark Knight of databases.
+
+"Why maintain three Batcaves when one fortress can rule them all?"
+
+The standard advice: use MongoDB for documents, Redis for caching, Pinecone/Milvus for vectors.
+
+Three systems. Three configs. Three failure points. Three Batcaves.
+
+I took a different path. PGFusion — a unified multi-model data layer built entirely on PostgreSQL.
+
+Here's what one database can actually do:
+
+🦇 Document Store → JSONB + GIN Indexing
+Schemaless CRUD. Query performance matching native document stores. ACID compliance included. MongoDB was optional all along.
+
+⚡ Vector Search → pgvector + IVFFlat
+Sub-100ms similarity retrieval across high-dimensional embeddings using optimized cosine distance queries. Pinecone who?
+
+🌙 Cache → Async TTL Tables + asyncpg
+Background cleanup runs in the shadows. High-concurrency key-value lookups at maximum throughput. Redis, you've been replaced.
+
+The result:
+→ 60% reduction in infrastructure complexity
+→ 60% fewer network hops
+→ Zero loss in performance
+→ One system to monitor, scale, and trust
+
+"The strength of Batman is not his gadgets. It's his discipline."
+
+Sometimes the most powerful architecture is the one that removes complexity — not adds it.
+
+#PostgreSQL #Architecture #Backend #AI #VectorSearch #Python #Engineering #PGFusion 🦇</div>
+      <button class="copy-btn" onclick="copyText('copy-post3', this)">⚡ Copy Post 3</button>
+    </div>
+  </div>
+
+  <!-- ─── BANNER PROMPT ─── -->
+  <div class="section">
+    <div class="section-title">09 · Banner & Visual Setup</div>
+    <div class="card">
+      <div class="exp-company" style="margin-bottom:12px;">🎨 AI Banner Generation Prompt</div>
+      <div class="copy-box" id="copy-banner">Generate a LinkedIn banner (1584x396px, dark theme):
+
+Gotham City at night — dramatic skyline with art-deco skyscrapers, heavy rain, yellow Bat-Signal cutting through storm clouds. Foreground: faint code/matrix rain in dark yellow. Bottom strip: subtle text in white monospace font reading "DARK KNIGHT OF CODE". Color palette: deep black (#0a0a0a), dark charcoal (#1c1c1c), and electric yellow (#f5c518). Cinematic, moody, noir atmosphere. No cartoon style — realistic and dramatic.</div>
+      <button class="copy-btn" onclick="copyText('copy-banner', this)">⚡ Copy Banner Prompt</button>
+      <div style="margin-top:16px; color:#888; font-size:0.8rem; font-family: 'Share Tech Mono', monospace;">
+        → Paste this into: Midjourney, Adobe Firefly, DALL-E 3, or Ideogram<br/>
+        → Upload result to LinkedIn as your banner photo (Settings → Edit Profile → Background Photo)<br/>
+        → Profile photo: use a high-contrast, dark-background photo of yourself — or a silhouette shot
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px;">
+      <div class="exp-company" style="margin-bottom:12px;">🔗 Connection Request Template</div>
+      <div class="copy-box" id="copy-connect">🦇 Dark Knight of Code reaching out.
+
+I'm a backend/AI engineer at Selkea AI — building RAG pipelines, LangGraph orchestration systems, and privacy-first LLM proxies. Always looking to connect with engineers who build things that matter.
+
+"It's not who I am underneath — but what I build that defines me."
+
+Let's connect.</div>
+      <button class="copy-btn" onclick="copyText('copy-connect', this)">⚡ Copy Connection Note</button>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-bat">🦇</div>
+    <div class="footer-text">JAGADEESH PADAM &nbsp;·&nbsp; DARK KNIGHT OF CODE &nbsp;·&nbsp; GOTHAM'S DATA GUARDIAN</div>
+    <div style="margin-top:10px; font-family:'Share Tech Mono',monospace; font-size:0.65rem; color:#444; letter-spacing:0.2em;">
+      "I AM VENGEANCE. I AM THE NIGHT. I AM THE ENGINEER."
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function copyText(id, btn) {
+    const el = document.getElementById(id);
+    navigator.clipboard.writeText(el.textContent).then(() => {
+      const orig = btn.textContent;
+      btn.textContent = '✓ Copied to Clipboard!';
+      btn.style.background = '#f5c518';
+      btn.style.color = '#000';
+      setTimeout(() => {
+        btn.textContent = orig;
+        btn.style.background = 'transparent';
+        btn.style.color = '#f5c518';
+      }, 2000);
+    });
+  }
+</script>
+</body>
+</html>

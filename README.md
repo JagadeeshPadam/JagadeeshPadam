@@ -2,167 +2,224 @@
 
 ![banner](banner.svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0E7490&center=true&vCenter=true&width=600&lines=Building+AI-driven+backend+systems+%F0%9F%A4%96;RAG+Pipelines+%7C+LangChain+%7C+LangGraph;FastAPI+%7C+AWS+%7C+Vector+Databases;300%2B+LeetCode+Problems+Solved+%F0%9F%94%A5)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F5C518&center=true&vCenter=true&width=700&lines=🦇+Dark+Knight+of+Code;Protecting+Gotham's+Data+One+Pipeline+at+a+Time;RAG+Pipelines+%7C+LangGraph+%7C+LangChain;FastAPI+%7C+AWS+%7C+Vector+Databases;300%2B+Algorithmic+Problems+Conquered+⚔️)](https://git.io/typing-svg)
 
 <p>
-  <a href="https://linkedin.com/in/jagadeeshpadam"><img src="https://img.shields.io/badge/LinkedIn-jagadeeshpadam-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"/></a>
-  <a href="mailto:jagadeeshpadam2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-jagadeeshpadam2003-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white"/></a>
-  <a href="https://www.leetcode.com/bashman786"><img src="https://img.shields.io/badge/LeetCode-bashman786-FFA116?style=for-the-badge&amp;logo=leetcode&amp;logoColor=white"/></a>
-  <a href="https://jagadeeshpadam.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit-0e7490?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white"/></a>
+  <a href="https://linkedin.com/in/jagadeeshpadam"><img src="https://img.shields.io/badge/LinkedIn-jagadeeshpadam-F5C518?style=for-the-badge&logo=linkedin&logoColor=black"/></a>
+  <a href="mailto:jagadeeshpadam2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-jagadeeshpadam2003-F5C518?style=for-the-badge&logo=gmail&logoColor=black"/></a>
+  <a href="https://www.leetcode.com/bashman786"><img src="https://img.shields.io/badge/LeetCode-bashman786-F5C518?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
+  <a href="https://jagadeeshpadam.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit_the_Batcave-F5C518?style=for-the-badge&logo=githubpages&logoColor=black"/></a>
 </p>
+
+> *"It's not who I am underneath — but what I build that defines me."*
 
 </div>
 
 ---
 
-## 🧠 About Me
+## 🦇 The Dark Knight
 
 ```python
-class JagadeeshPadam:
+class DarkKnightOfCode:
     def __init__(self):
-        self.role        = "Junior Software Engineer @ Selkea AI"
-        self.location    = "Bangalore, India 🇮🇳"
-        self.education   = "B.Tech CSE — SRKR Engineering College (CGPA: 9.31/10)"
-        self.focus       = ["RAG Pipelines", "LLM Integration", "Backend Systems", "Semantic Search"]
-        self.languages   = ["Python", "SQL"]
-        self.currently   = "Building production-grade AI systems for regulatory intelligence"
+        self.alias        = "Jagadeesh Padam"
+        self.role         = "Junior Software Engineer @ Selkea AI (Promoted from Intern)"
+        self.location     = "Bangalore, India 🌆 — Gotham's Tech District"
+        self.education    = "B.Tech CSE — SRKR Engineering College (CGPA: 9.31/10)"
+        self.mission      = "Protect enterprise systems from data chaos, privacy breaches & brittle architecture"
+        self.weapons      = ["RAG Pipelines", "LangGraph", "LLM Integration", "Semantic Search"]
+        self.languages    = ["Python", "SQL"]
+        self.currently    = "Building production AI systems for regulatory intelligence at Selkea AI"
         self.ask_me_about = ["FastAPI", "LangGraph", "Vector DBs", "AWS", "System Design"]
 
-    def __str__(self):
-        return "Passionate dev who ships things that actually work in production. 🚀"
+    def philosophy(self):
+        return "The strength of Batman is not his gadgets — it's his discipline. 🦇"
+
+    def current_mission(self):
+        return "10,000+ regulatory documents indexed. Gotham's compliance teams protected. 📡"
 ```
 
 ---
 
-## ⚡ Tech Stack
+## ⚡ The Utility Belt — Tech Stack
 
 <div align="center">
 
-**Languages & Backend**
+**🦇 Detective Arsenal — Languages & Backend**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-F5C518?style=for-the-badge&logo=python&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-F5C518?style=for-the-badge&logo=fastapi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-F5C518?style=for-the-badge&logo=mysql&logoColor=black)
 
-**AI / ML / Retrieval**
+**🤖 Bat-Computer — AI / ML / Retrieval**
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-0e7490?style=for-the-badge&logo=graphql&logoColor=white)
-![OpenAI](https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=databricks&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1a1a1a?style=for-the-badge&logo=langchain&logoColor=F5C518)
+![LangGraph](https://img.shields.io/badge/LangGraph-1a1a1a?style=for-the-badge&logo=graphql&logoColor=F5C518)
+![LLMs](https://img.shields.io/badge/LLM_Integration-1a1a1a?style=for-the-badge&logo=openai&logoColor=F5C518)
+![Qdrant](https://img.shields.io/badge/Qdrant-1a1a1a?style=for-the-badge&logo=databricks&logoColor=F5C518)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-1a1a1a?style=for-the-badge&logo=elasticsearch&logoColor=F5C518)
 
-**Databases & Infra**
+**🏰 Gotham's Data Vaults — Databases & Infra**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1a1a1a?style=for-the-badge&logo=postgresql&logoColor=F5C518)
+![MongoDB](https://img.shields.io/badge/MongoDB-1a1a1a?style=for-the-badge&logo=mongodb&logoColor=F5C518)
+![Redis](https://img.shields.io/badge/Redis-1a1a1a?style=for-the-badge&logo=redis&logoColor=F5C518)
+![MySQL](https://img.shields.io/badge/MySQL-1a1a1a?style=for-the-badge&logo=mysql&logoColor=F5C518)
+![AWS](https://img.shields.io/badge/AWS_Bat--Cave-1a1a1a?style=for-the-badge&logo=amazonaws&logoColor=F5C518)
+![Docker](https://img.shields.io/badge/Docker-1a1a1a?style=for-the-badge&logo=docker&logoColor=F5C518)
+![Airflow](https://img.shields.io/badge/Airflow-1a1a1a?style=for-the-badge&logo=apacheairflow&logoColor=F5C518)
 
-**Tools**
+**🔧 Bat-Tools**
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F5C518?style=for-the-badge&logo=git&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-F5C518?style=for-the-badge&logo=postman&logoColor=black)
+![Sentry](https://img.shields.io/badge/Sentry_Surveillance-F5C518?style=for-the-badge&logo=sentry&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-F5C518?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
 
 ---
 
-## 💼 Experience
+## 💼 Field Operations — Experience
 
 <table>
   <tr>
-    <td><b>🏢 Company</b></td>
-    <td><b>💡 Role</b></td>
-    <td><b>📅 Duration</b></td>
+    <td><b>🦇 Gotham HQ</b></td>
+    <td><b>⚔️ Mission Role</b></td>
+    <td><b>📅 Active Since</b></td>
   </tr>
   <tr>
     <td><b>Selkea AI</b></td>
-    <td>Junior Software Engineer <i>(Promoted from SDE Intern)</i></td>
-    <td>Dec 2024 – Present</td>
+    <td>Junior Software Engineer <i>(Promoted from SDE Intern, Apr 2025)</i></td>
+    <td>Dec 2024 – Present · Bangalore</td>
   </tr>
 </table>
 
-> 🔹 Built a production RAG pipeline over **10,000+ regulatory documents** (RBI, SEBI, NPCI, IRDAI)
-> 🔹 Designed multi-stage retrieval with **LangGraph**, multi-query expansion & contextual filtering
-> 🔹 Engineered real-time scrapers for regulatory monitoring & compliance alerting
-> 🔹 Built ingestion pipelines with **Azure Document Intelligence** → Qdrant + Elasticsearch
-> 🔹 Shipped scalable backend services using **FastAPI, MongoDB, AWS S3, EC2, DocumentDB**
+> *"In a city drowning in regulatory chaos, someone had to build the systems to bring order."*
+
+> 🦇 **The Bat-Intelligence Network** — Production RAG pipeline over **10,000+ regulatory documents** from RBI, SEBI, NPCI, IRDAI. Semantic search. Grounded answers. Zero misses.
+>
+> 🕷️ **The Bat-Computer Orchestration** — Multi-stage retrieval with **LangGraph** agents: multi-query expansion, contextual filtering, precision document ranking.
+>
+> 📡 **The Bat-Signal Surveillance System** — Automated scrapers tracking RBI & SEBI regulatory updates in real time. The Dark Knight doesn't react — he anticipates.
+>
+> 🗄️ **The Batcave Document Vault** — Unified ingestion pipeline via **Azure Document Intelligence** → embeddings → **Qdrant** + **Elasticsearch**. Every document indexed. Every query answered.
+>
+> ☁️ **Bat-Cave Cloud Infrastructure** — Deployed **AWS EC2, DocumentDB, S3** ensuring high availability. Gotham's systems cannot go dark.
+>
+> 👁️ **Bat-Surveillance** — **Sentry** observability: real-time error tracking, performance insights, faster incident response. Batman's eyes on every corner of production.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Gotham's Most Wanted — Projects
 
 <div align="center">
 
-[![Financial News Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&amp;repo=Financial-News-Intelligence-System&amp;theme=react&amp;border_color=0e7490&amp;title_color=0e7490)](https://github.com/JagadeeshPadam/Financial-News-Intelligence-System)
+[![SecureLLM](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&repo=SecureLLM&theme=dark&border_color=F5C518&title_color=F5C518&icon_color=F5C518)](https://github.com/JagadeeshPadam/SecureLLM)
 &nbsp;&nbsp;
-[![Graph RAG](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&amp;repo=Graph-RAG&amp;theme=react&amp;border_color=0e7490&amp;title_color=0e7490)](https://github.com/JagadeeshPadam/Graph-RAG)
+[![PGFusion](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&repo=PGFusion&theme=dark&border_color=F5C518&title_color=F5C518&icon_color=F5C518)](https://github.com/JagadeeshPadam/PGFusion)
 
 </div>
 
-### 🤖 [AI-Powered Financial News Intelligence System](https://github.com/JagadeeshPadam/Financial-News-Intelligence-System)
-> `Python` `FastAPI` `LangGraph` `LLMs` `ChromaDB` `Embeddings`
+---
 
-- Multi-agent platform for real-time financial news ingestion, deduplication & analysis
-- **95%+ semantic deduplication accuracy** using embeddings + GPT-based entity extraction
-- Sub-**2 second** contextual query responses via RAG-style retrieval over ChromaDB
+### 🔐 SecureLLM (RedacGPT) — The Privacy Cowl
+
+> `Python` `FastAPI` `Next.js 14` `Redis` `PostgreSQL` `Presidio` `Google Gemini` `SSE`
+
+*"The enemy isn't out there. Sometimes it's in the data you send."*
+
+Batman doesn't let sensitive intelligence fall into the wrong hands. **Neither does SecureLLM.**
+
+| Stat | Result |
+|------|--------|
+| 🦇 PII Types Neutralized | **18+ entity types** |
+| ⚡ Detection Accuracy | **98%+** via Presidio |
+| 🔐 Context Assembly | **Sub-millisecond** (Redis hot cache) |
+| 🏛️ Cold Storage | **AES-128-CBC Fernet encrypted** PostgreSQL vault |
+
+- **Privacy-first AI proxy** intercepting and anonymizing PII before it ever reaches an LLM — 98%+ detection accuracy, enterprise-grade compliance
+- **Dual-tier memory vault**: Redis (sub-ms hot cache) + PostgreSQL (AES-128-CBC Fernet encrypted) — the Batcave has two vaults, both impenetrable
+- **SSE streaming** with Google Gemini for real-time token delivery, maintaining semantic integrity via numbered entity placeholders across multi-turn sessions
+- **SOLID + Dependency Injection** for seamless LLM swaps (Gemini/OpenAI/Ollama) — modular as a Bat-suit upgrade. Zero architectural regression
 
 ---
 
-### 🕸️ [Document Knowledge Graph & Semantic Exploration System](https://github.com/JagadeeshPadam/Graph-RAG)
-> `Python` `Neo4j` `NLP` `FastAPI`
+### 🏰 PGFusion — The Unified Batcave Data Fortress
 
-- Domain-agnostic knowledge graph built from unstructured documents via NLP pipelines
-- Entity & relationship extraction stored in **Neo4j** for relationship-aware semantic search
-- Context-aware discovery of entities and documents far beyond keyword/vector search
+> `Python` `PostgreSQL` `pgvector` `FastAPI` `Asyncio` `asyncpg`
+
+*"Why maintain three Batcaves when one fortress can rule them all?"*
+
+| Stat | Result |
+|------|--------|
+| 🏰 Infra Complexity Reduced | **60%** fewer network hops |
+| ⚡ Vector Retrieval | **Sub-100ms** similarity search |
+| 🗄️ Databases Replaced | MongoDB + Redis + Pinecone/Milvus |
+| 🔒 Compliance | **Full ACID** maintained |
+
+- **Unified multi-model data layer** in PostgreSQL — replacing MongoDB, Redis, AND dedicated Vector DBs simultaneously. One fortress. Three roles. Zero compromise.
+- **Vector Search engine** via `pgvector` + IVFFlat indexing — sub-100ms similarity retrieval across high-dimensional embeddings. The Bat-Computer answers before you finish asking.
+- **JSONB + GIN indexing** for schemaless CRUD matching native document stores — with ACID compliance intact
+- **Async TTL-based caching** using relational tables + `asyncpg` — background cleanup runs silently, like Batman in the shadows
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Bat-Computer Stats
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=JagadeeshPadam&amp;show_icons=true&amp;theme=react&amp;border_color=0e7490&amp;title_color=0e7490&amp;icon_color=0e7490&amp;hide_border=false&amp;include_all_commits=true&amp;count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JagadeeshPadam&amp;layout=compact&amp;theme=react&amp;border_color=0e7490&amp;title_color=0e7490&amp;hide_border=false"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=JagadeeshPadam&show_icons=true&theme=dark&border_color=F5C518&title_color=F5C518&icon_color=F5C518&hide_border=false&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JagadeeshPadam&layout=compact&theme=dark&border_color=F5C518&title_color=F5C518&hide_border=false"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=JagadeeshPadam&theme=react&border=0e7490&ring=0e7490&fire=f97316&currStreakLabel=0e7490)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=JagadeeshPadam&theme=dark&border=F5C518&ring=F5C518&fire=F5C518&currStreakLabel=F5C518)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
-## 🏆 Achievements
+## 🏆 Honors of the Dark Knight
 
-| 🥇 | Achievement |
+| 🦇 | Achievement |
 |----|-------------|
-| 🧩 | **300+ problems** solved on LeetCode & HackerRank |
-| 🥈 | **Silver Medal** (2nd Rank) — 1st Year Academics, CGPA 9.69/10 |
-| 🇮🇳 | **National Finalist** — Smart India Hackathon 2024 (Telemedicine Kiosk) |
-| 🎯 | **1st Place** — SRKR Code-Knight Competitive Programming Contest |
-| 🏅 | **3rd Place** — VIT-B Code-Chaser Programming Contest |
-| 👨‍🏫 | **Competitive Coding Lead** — SRKR Coding Club, mentored 50+ students |
+| ⚔️ | **300+ algorithmic problems** conquered on LeetCode & HackerRank — the Bat-Computer runs every night |
+| 🥈 | **Silver Medal — 2nd Rank** in first-year academics · CGPA 9.69/10 — even Bruce Wayne topped his class |
+| 🇮🇳 | **National Finalist — Smart India Hackathon 2024** · Telemedicine Kiosk · Batman solves real problems |
+| 🥇 | **1st Place — SRKR Code-Knight** competitive programming contest · The knight competes. The knight wins. |
+| 🏅 | **3rd Place — VIT-B Code-Chaser** programming contest |
+| 👨‍🏫 | **Competitive Coding Lead** — SRKR Coding Club · Organized *HackOverflow* (national-level) · Mentored 50+ future knights |
 
 ---
 
-## 📈 Contribution Activity
+## 📈 Gotham Night Watch — Contribution Activity
 
 <div align="center">
 
-[![Jagadeesh's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JagadeeshPadam&theme=react-dark&color=0e7490&line=0e7490&point=f97316&area=true&hide_border=false)](https://github.com/JagadeeshPadam)
+[![Jagadeesh's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JagadeeshPadam&theme=github-compact&color=F5C518&line=F5C518&point=ffffff&area=true&hide_border=false)](https://github.com/JagadeeshPadam)
 
 </div>
 
 ---
 
 <div align="center">
-<i>Let's build something great together 🚀</i>
+
+```
+  /\   /\
+ /  \ /  \
+/ 🦇  🦇  \
+\          /
+ \        /
+  \______/
+
+  I AM VENGEANCE.
+  I AM THE NIGHT.
+  I AM THE ENGINEER.
+```
+
+*"I wear the cowl not because I want to — because I have to."*
+
 </div>
