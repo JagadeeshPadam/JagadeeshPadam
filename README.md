@@ -115,9 +115,13 @@ class DarkKnightOfCode:
 
 <div align="center">
 
-[![SecureLLM](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&repo=SecureLLM&theme=dark&border_color=F5C518&title_color=F5C518&icon_color=F5C518)](https://github.com/JagadeeshPadam/SecureLLM)
-&nbsp;&nbsp;
-[![PGFusion](https://github-readme-stats.vercel.app/api/pin/?username=JagadeeshPadam&repo=PGFusion&theme=dark&border_color=F5C518&title_color=F5C518&icon_color=F5C518)](https://github.com/JagadeeshPadam/PGFusion)
+<a href="https://github.com/JagadeeshPadam/SecureLLM">
+  <img src="https://img.shields.io/badge/SecureLLM__RedacGPT-The_Privacy_Cowl_%F0%9F%94%90-F5C518?style=for-the-badge&logo=github&logoColor=black&labelColor=1a1a1a"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/JagadeeshPadam/PGFusion">
+  <img src="https://img.shields.io/badge/PGFusion-Unified_Batcave_Data_Fortress_%F0%9F%8F%B0-F5C518?style=for-the-badge&logo=github&logoColor=black&labelColor=1a1a1a"/>
+</a>
 
 </div>
 
